@@ -6,6 +6,10 @@ language: zh
 menu:
   Home: /
   About: /about
+  Archives: /archives/ || archives
+  Categories: /categories/ || categories
+  Tags: /tags/ || tags
+  Resume: /resume
 
 # stylesheets loaded in the <head>
 stylesheets:
@@ -13,6 +17,7 @@ stylesheets:
 stylesheets_preload:
 - https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css # for highlight
 - https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap # for font
+- https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css # for toc basic style
 
 # scripts loaded in the end of the body
 scripts_defer:
@@ -21,13 +26,13 @@ scripts_defer:
 
 
 social:
-  Github: https://github.com/yours
-  Codepen: https://codepen.io/yours
-  Dribbble: https://dribbble.com/yours
-  Twitter: https://twitter.com/yours
-  知乎: https://www.zhihu.com/people/yours
-  掘金: https://juejin.im/user/yours
-  Mail: mailto:xxx@yourmail.xxxx
+  Github: https://github.com/GoodNight-Git
+  #Codepen: https://codepen.io/yours
+  #Dribbble: https://dribbble.com/yours
+  #Twitter: https://twitter.com/yours
+  #知乎: https://www.zhihu.com/people/yours
+  掘金: https://juejin.im/user/5cb1ed9b5188251b090acc5c
+  Mail: mailto:goodnightlilanhui@gmail.com
   # and more, you can add other link by the same way
 
 # Uncomment to disable sidebar
@@ -41,14 +46,14 @@ social:
 main_color: default # forest | grass | sky | sun | sea
 
 # google Analytics
-google_analytics_id: xx-xxxxxxx-xx
+google_analytics_id: UA-171806323-1
 
 # commend module
 comment:
   enable: false
-  appId: your-app-id
-  appKey: your-app-key
-  placeholder: say something
+  appId: WJeMts5Pt6bfh1AmBPQ7Dvy3-gzGzoHsz
+  appKey: 6mKl25zRgrHVHLnCaA2pIYAI
+  placeholder: Good night. Take a rest.
   notify: false
   verify: false
   avatar: mp
